@@ -1,6 +1,4 @@
 import requests
-import pandas as pd
-
 class OpenWeatherAPI:
     def __init__(self, lat,lon,apikey):
         self.lat = lat
